@@ -15,13 +15,13 @@ int main()
     
     for(i=1; i<n; i++)
     {
-        if(arr[i]>max)
+        if(arr[i]>largest)
         {
             largest=arr[i];
         }
         
     }
-    printf("Maximum= %d\n", max);
+    printf("Maximum= %d\n", largest);
     
     return 0;
 }
