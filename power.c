@@ -12,6 +12,6 @@ while(b!=0)
 result= a*result;
 --b;
 }
-printf("%d raised to the power %d is %d", a,b,result);
+printf("%d raised to the power %d is %d", a,x,result);
 return 0;
 }  
